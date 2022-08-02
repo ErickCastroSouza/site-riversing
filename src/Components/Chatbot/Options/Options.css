@@ -1,0 +1,13 @@
+.option-button {
+  border-radius: 25px;
+  font-weight: bold;
+  background-color: rgb(40, 152, 236);
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  border: none;
+}
+
+.option-button:hover {
+  background-color: #4381be;
+}

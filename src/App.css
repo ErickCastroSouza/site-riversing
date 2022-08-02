@@ -1,0 +1,2197 @@
+.App {
+  text-align: right;
+}
+
+.App-header {
+  background-color: #1d2936;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.tour-body {
+  background-color: #1d2936;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.tour1 {
+  position: absolute;
+  text-align: center;
+  font-size: 30px;
+  right: 410px;
+  background-color: transparent;
+  border-radius: 25px;
+  margin-left: 440px;
+  margin-right: 25px;
+}
+
+#tour-text1 {
+  margin: 0;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 5px;
+}
+
+#tour-text2 {
+  margin: 0;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 5px;
+}
+
+#tour-welcome1 {
+  margin: 0;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 5px;
+  margin: 0;
+  text-shadow: 2px 2px 2px black;
+}
+
+#tour-welcome2 {
+  margin: 0;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  margin: 0;
+  text-shadow: 2px 2px 2px black;
+}
+
+.tour2-text-div {
+  text-align: center;
+}
+
+.tour2-text1 {
+  position: absolute;
+  top: 50px;
+  right: 920px;
+  bottom: 80px;
+  font-size: 24px;
+}
+
+.tour2-text2 {
+  position: absolute;
+  top: 50px;
+  left: 710px;
+  font-size: 24px;
+  bottom: 338px;
+}
+
+.tour3-text-div {
+  text-align: center;
+}
+
+.tour3-text1 {
+  position: absolute;
+  top: 50px;
+  right: 880px;
+  bottom: 80px;
+  font-size: 24px;
+}
+
+.tour3-text2 {
+  position: absolute;
+  top: 50px;
+  left: 610px;
+  font-size: 24px;
+  bottom: 338px;
+}
+
+.tour4-text {
+  font-size: 30px;
+}
+
+.tour-home-button {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  border: none;
+  color: #db2700;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 140px;
+  border-radius: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: relative;
+  left: 550px;
+}
+
+.tour-home-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.tour-home-button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.tour-home-button:hover span {
+  padding-right: 25px;
+}
+
+.tour-home-button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.tour-button1-right {
+  cursor: pointer;
+  position: relative;
+  color: #4b6c8d;
+  left: 600px;
+  top: 280px;
+  bottom: 200px;
+  font-size: 6rem;
+  z-index: 8;
+}
+
+.tour-button1-right:hover {
+  color: #db2700;
+  transition: 0.5s;
+}
+
+.tour-button1-left {
+  cursor: pointer;
+  position: relative;
+  color: #4b6c8d;
+  right: 630px;
+  top: 280px;
+  bottom: 200px;
+  font-size: 6rem;
+  z-index: 8;
+}
+
+.tour-button1-left:hover {
+  color: #db2700;
+  transition: 0.5s;
+}
+
+.tour-button2-right {
+  cursor: pointer;
+  position: absolute;
+  color: #4b6c8d;
+  left: 1250px;
+  top: 560px;
+  bottom: 200px;
+  font-size: 6rem;
+  z-index: 8;
+}
+
+.tour-button2-right:hover {
+  color: #db2700;
+  transition: 0.5s;
+}
+
+.tour-button2-left {
+  cursor: pointer;
+  position: absolute;
+  color: #4b6c8d;
+  right: 1250px;
+  top: 560px;
+  bottom: 0px;
+  font-size: 6rem;
+  z-index: 8;
+}
+
+.tour-button2-left:hover {
+  color: #db2700;
+  transition: 0.5s;
+}
+
+.welcome {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+#welcome-text {
+  padding-top: 0px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.footer {
+  background-color: #161e29;
+  color: rgb(209, 195, 195);
+  position: absolute;
+  left: 0;
+  height: 350px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 3px 3px 5px 6px black;
+  float: bottom;
+}
+
+.footer-logo-full {
+  position: relative;
+}
+
+#footer-text1 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: bold;
+  width: 141px;
+  height: 0px;
+  padding-top: 15px;
+  padding-bottom: 1px;
+  padding-left: 135px;
+  font-size: 20px;
+}
+
+#footer-text2 {
+  font-family: "Poppins", sans-serif;
+  color: #db2700;
+  font-weight: bold;
+  width: 145px;
+  padding-left: 220px;
+  font-size: 20px;
+}
+
+.contacts-title {
+  position: relative;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-shadow: 2px 2px 2px black;
+}
+
+.contacts-container {
+  position: relative;
+}
+
+.contacts-instaText {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  color: whitesmoke;
+  font-weight: bold;
+  transition: 0.5s;
+  text-shadow: 2px 2px 2px black;
+}
+
+.contacts-instaText:hover {
+  color: #4b6c8d;
+}
+
+.contacts-zapText {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  color: whitesmoke;
+  transition: 0.5s;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+}
+
+.contacts-zapText:hover {
+  color: #4b6c8d;
+}
+
+.contacts-faceText {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  color: whitesmoke;
+  transition: 0.5s;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+}
+
+.contacts-faceText:hover {
+  color: #4b6c8d;
+}
+
+.contacts-mailText {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  color: whitesmoke;
+  transition: 0.5s;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+}
+
+.contacts-mailText:hover {
+  color: #4b6c8d;
+}
+
+.contacts-instaLogo {
+  position: relative;
+  color: whitesmoke;
+  text-shadow: 2px 2px 2px black;
+}
+.contacts-zapLogo {
+  position: relative;
+  color: whitesmoke;
+  text-shadow: 2px 2px 2px black;
+}
+.contacts-faceLogo {
+  position: relative;
+  color: whitesmoke;
+  text-shadow: 2px 2px 2px black;
+}
+.contacts-mailLogo {
+  position: relative;
+  color: whitesmoke;
+  text-shadow: 2px 2px 2px black;
+}
+
+.init-footer {
+  background-color: #1d2936;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.init-footer-full-logo {
+  width: 1490px;
+  height: 50px;
+}
+
+.init-footer-logo {
+  float: left;
+  height: 10px;
+  padding-left: 10px;
+}
+
+#init-footer-text1 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: bold;
+  width: 141px;
+  height: 0px;
+  padding-top: 15px;
+}
+#init-footer-text2 {
+  position: relative;
+  bottom: 15px;
+  font-family: "Poppins", sans-serif;
+  color: #db2700;
+  font-weight: bold;
+  width: 145px;
+  padding-left: 55px;
+}
+
+.img {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.avatar-rivers {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.init_button {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  border: none;
+  color: #db2700;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 140px;
+  border-radius: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.init_button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.init_button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.init_button:hover span {
+  padding-right: 25px;
+}
+
+.init_button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.home-header {
+  display: block;
+  overflow: hidden;
+  background-color: #161e29;
+  color: rgb(209, 195, 195);
+  padding: 5px 5px;
+  position: fixed;
+  width: 90%;
+  border-radius: 25px;
+  z-index: 10;
+  box-shadow: 2px 2px 2px black;
+}
+
+.home-header a {
+  float: left;
+  color: #db2700;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 20px;
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  padding-top: 0px;
+}
+
+.home-header a:hover {
+  color: #4b6c8d;
+  text-shadow: 2px 2px 2px black;
+  transition: 0.5s;
+}
+
+.logo {
+  position: relative;
+  left: 20px;
+}
+
+.logo:hover {
+  background-color: rgb(209, 195, 195);
+  transition: 0.5s;
+}
+
+.header-right {
+  float: right;
+  padding-right: 10px;
+  padding-top: 15px;
+}
+
+.mobile-header1 {
+  display: none;
+}
+
+.mobile-header2 {
+  display: none;
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.mobile-header-modal {
+  color: #db2700;
+  font-family: "Poppins", sans-serif;
+  position: fixed;
+  left: 150px;
+  height: 500px;
+  width: 200px;
+  border-radius: 25px;
+  font-weight: bold;
+  box-shadow: 2px 2px 2px black;
+  background-color: #161e29;
+  top: 100px;
+}
+
+.mobile-header-modal-a {
+  font-size: 25px;
+  color: #db2700;
+}
+
+.chatbot-button-div {
+  position: fixed;
+  top: 600px;
+  z-index: 9;
+  left: 50px;
+}
+
+.chatbot-button {
+  box-shadow: 2px 2px 2px black;
+  border-radius: 50%;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+  background-color: #161e29;
+  color: #db2700;
+  transition: 0.5s;
+  font-size: 50px;
+  border: none;
+}
+
+.chatbot-button:hover {
+  background-color: #db2700;
+  color: #161e29;
+}
+
+.chatbot-modal {
+  position: fixed;
+  background-color: #161e29;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px black;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  scroll-snap-type: y;
+}
+
+@media screen and (max-width: 499px) {
+  .il-cards {
+    display: none;
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .react-chatbot-kit-chat-inner-container {
+    position: relative;
+    top: 25px;
+    left: 25px;
+    width: 200px;
+    height: 300px !important;
+    border-radius: 25px !important;
+  }
+
+  .react-chatbot-kit-chat-message-container {
+    height: 200px !important;
+  }
+
+  .chatbot-modal {
+    width: 250px;
+    height: 350px;
+    top: 90px;
+    left: 45px;
+  }
+
+  .chatbot-button-div {
+    top: 470px;
+    left: 30px;
+    z-index: 10;
+  }
+
+  .footer-logo {
+    position: relative;
+    right: 80px;
+  }
+
+  #footer-text1 {
+    position: relative;
+    right: 39px;
+    bottom: 53px;
+  }
+
+  #footer-text2 {
+    position: relative;
+    right: 38px;
+    bottom: 53px;
+  }
+
+  .footer-logo-full {
+    right: 15px;
+  }
+
+  .contacts-title {
+    bottom: 50px;
+  }
+
+  .contacts-container {
+    bottom: 50px;
+  }
+
+  .mobile-header1 {
+    display: block;
+    transition: 0.5s;
+    z-index: 10;
+    position: fixed;
+    top: 10px;
+    box-shadow: 2px 2px 2px black;
+    left: 25px;
+    border-radius: 25px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    width: 70px;
+    background-color: #161e29;
+  }
+
+  .mobile-header1:hover {
+    background-color: #db2700;
+  }
+
+  .mobile-header2 {
+    display: block;
+    cursor: pointer;
+    z-index: 10;
+    position: fixed;
+    top: 10px;
+    left: 280px;
+    width: 70px;
+  }
+
+  .mobile-header-button {
+    box-shadow: 2px 2px 2px black;
+    background-color: #161e29;
+    border-radius: 25px;
+    border: none;
+    padding-top: 5px;
+    color: #db2700;
+    font-size: 45px;
+  }
+
+  .mobile-header-button:hover {
+    background-color: #db2700;
+    color: #161e29;
+  }
+
+  .home-body {
+    overflow-y: hidden;
+    max-width: 400px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  .home-header {
+    display: none;
+  }
+
+  .presentation {
+    position: relative;
+    width: 350px;
+    height: 500px;
+    padding-bottom: 500px;
+    bottom: 50px;
+  }
+
+  .home-presentation-text {
+    position: relative;
+    right: 15px;
+    bottom: 50px;
+    text-align: center;
+  }
+
+  .home-presentation-text2 {
+    top: 450px;
+    position: relative;
+    font-size: 25px;
+    left: 15px;
+  }
+
+  .rivers-home {
+    width: 300px;
+    height: 100px;
+    position: relative;
+    top: 220px;
+    right: 50px;
+  }
+
+  .faixa1-home {
+    display: none;
+  }
+
+  .home-cards {
+    position: relative;
+    right: 25px;
+    width: 350px;
+    height: 750px;
+    padding-bottom: 500px;
+  }
+
+  .home-card {
+    position: relative;
+    right: 82px;
+  }
+
+  .homeSlider {
+    position: relative;
+    left: 40px;
+    top: 50px;
+  }
+
+  .home-left-arrow {
+    display: none;
+  }
+
+  .home-right-arrow {
+    display: none;
+  }
+
+  .mobile-home-left-arrow {
+    right: 359px;
+    top: 150px;
+    position: absolute;
+    display: block;
+    font-size: 100px;
+    color: #db2700;
+    font-weight: bold;
+    transition: 0.5s;
+  }
+
+  .mobile-home-left-arrow:hover {
+    color: #161e29;
+  }
+
+  .mobile-home-right-arrow {
+    left: 275px;
+    top: 150px;
+    position: absolute;
+    display: block;
+    font-size: 100px;
+    color: #db2700;
+    transition: 0.5s;
+    font-weight: bold;
+  }
+
+  .mobile-home-right-arrow:hover {
+    color: #161e29;
+  }
+
+  .home-team {
+    position: relative;
+    right: 25px;
+    width: 350px;
+    height: 550px;
+    padding-bottom: 2200px;
+  }
+
+  #team-title {
+    position: relative;
+    font-size: 50px;
+    text-align: center;
+    right: 120px;
+    top: 50px;
+  }
+
+  .rivers-card {
+    position: relative;
+    left: 70px;
+  }
+
+  #rivers-card-title {
+    position: relative;
+    top: 200px;
+    right: 200px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #rivers-card-text {
+    position: relative;
+    top: 330px;
+    text-align: center;
+    right: 100px;
+  }
+
+  #rivers-card-insta-logo {
+    position: relative;
+    top: 310px;
+    left: 85px;
+    font-size: 25px;
+  }
+
+  .joao-card {
+    position: relative;
+    top: 600px;
+    right: 335px;
+  }
+
+  #joao-card-insta-logo {
+    position: relative;
+    font-size: 25px;
+    top: 650px;
+    left: 170px;
+  }
+
+  #joao-card-img {
+    position: relative;
+    left: 15px;
+    top: 100px;
+  }
+
+  #joao-card-text {
+    position: relative;
+    top: 200px;
+    right: 55px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  #joao-card-title {
+    text-align: center;
+    position: relative;
+    top: 70px;
+    right: 150px;
+    text-shadow: 2px 2px 2px black;
+    font-size: 30px;
+  }
+
+  #joao-card-insta {
+    position: relative;
+    bottom: 470px;
+    right: 70px;
+  }
+
+  .nick-card {
+    position: relative;
+    top: 800px;
+    left: 80px;
+  }
+
+  #nick-card-title {
+    position: relative;
+    font-size: 30px;
+    top: 180px;
+    right: 200px;
+    text-align: center;
+  }
+
+  #nick-card-text {
+    position: relative;
+    font-size: 18px;
+    top: 230px;
+    right: 200px;
+    text-align: center;
+  }
+
+  #nick-card-insta {
+    position: relative;
+    top: 210px;
+    left: 85px;
+  }
+
+  #nick-card-insta-logo {
+    font-size: 25px;
+  }
+
+  .erick-card {
+    position: relative;
+    top: 1450px;
+    right: 335px;
+  }
+
+  #erick-card-img {
+    left: 25px;
+  }
+
+  #erick-card-title {
+    right: 150px;
+    bottom: 25px;
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #erick-card-text {
+    position: relative;
+    font-size: 18px;
+    text-align: center;
+    top: 20px;
+    right: 55px;
+  }
+
+  #erick-card-insta {
+    position: relative;
+    left: 100px;
+  }
+
+  #erick-card-insta-logo {
+    font-size: 25px;
+  }
+
+  .footer-full-logo {
+    position: relative;
+    right: 500px;
+  }
+
+  .mobile-il-swiper {
+    position: relative;
+    bottom: 100px;
+    display: block;
+    height: 500px;
+    width: 300px;
+    z-index: none;
+  }
+
+  .swiper-container {
+    z-index: none !important;
+  }
+}
+
+.home-contact {
+  position: relative;
+  right: 500px;
+}
+
+@media screen and (min-width: 500px) and (max-width: 999px) {
+  .mobile-il-swiper {
+    display: none;
+  }
+
+  .home-header {
+    left: 30px;
+  }
+
+  .chatbot-button-div {
+    top: 1050px;
+  }
+
+  .home-body {
+    overflow-y: hidden;
+    max-width: 999px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  .faixa1-home {
+    display: none;
+  }
+
+  .home-header {
+    align-items: center;
+  }
+
+  .presentation {
+    width: 600px;
+  }
+
+  .home-presentation-text {
+    position: relative;
+    left: 40px;
+  }
+
+  .home-presentation-text2 {
+    right: 10px;
+    text-align: center;
+  }
+
+  .home-cards {
+    position: relative;
+    right: 25px;
+    width: 650px;
+    height: 850px;
+    padding-bottom: 500px;
+  }
+
+  .mobile-home-left-arrow {
+    display: none;
+  }
+
+  .mobile-home-right-arrow {
+    display: none;
+  }
+
+  .home-card {
+    position: relative;
+    left: 50px;
+  }
+
+  .homeSlider {
+    position: relative;
+    left: 180px;
+  }
+
+  .home-left-arrow {
+    right: 0px;
+  }
+
+  .home-right-arrow {
+    position: relative;
+    left: 40px;
+  }
+
+  .home-team {
+    position: relative;
+    right: 25px;
+    height: 1600px;
+  }
+
+  #team-title {
+    position: relative;
+    right: 100px;
+    top: 25px;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .rivers-card {
+    left: 80px;
+  }
+
+  #rivers-card-title {
+    text-align: center;
+    position: relative;
+    top: 200px;
+    right: 220px;
+  }
+
+  #rivers-card-text {
+    position: relative;
+    top: 265px;
+    right: 100px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  #rivers-card-insta {
+    position: relative;
+    top: 250px;
+    left: 80px;
+  }
+
+  .joao-card {
+    left: 80px;
+  }
+
+  #joao-card-img {
+    position: relative;
+    right: 50px;
+    top: 150px;
+  }
+
+  #joao-card-title {
+    position: relative;
+    top: 100px;
+    right: 200px;
+  }
+
+  #joao-card-text {
+    position: relative;
+    top: 200px;
+    right: 120px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  #joao-card-insta {
+    position: relative;
+    top: 180px;
+    left: 30px;
+  }
+
+  .nick-card {
+    top: 200px;
+    left: 80px;
+  }
+
+  #nick-card-title {
+    position: relative;
+    top: 180px;
+    right: 220px;
+    text-align: center;
+  }
+
+  #nick-card-text {
+    text-align: center;
+    font-size: 20px;
+    top: 210px;
+    right: 220px;
+  }
+
+  #nick-card-insta {
+    position: relative;
+    top: 200px;
+    left: 70px;
+  }
+
+  .erick-card {
+    top: 280px;
+    left: 25px;
+  }
+
+  #erick-card-title {
+    right: 175px;
+    bottom: 30px;
+    text-align: center;
+  }
+
+  #erick-card-text {
+    right: 70px;
+    text-align: center;
+  }
+
+  #erick-card-insta {
+    left: 70px;
+  }
+
+  #erick-card-text {
+    font-size: 20px;
+  }
+
+  .contacts-container {
+    bottom: 50px;
+  }
+
+  .contacts-title {
+    bottom: 50px;
+  }
+
+  .footer-logo {
+    position: relative;
+    right: 100px;
+  }
+
+  #footer-text1 {
+    position: relative;
+    left: 160px;
+    bottom: 55px;
+  }
+
+  #footer-text2 {
+    position: relative;
+    left: 160px;
+    bottom: 55px;
+  }
+
+  .chatbot-button-div {
+    top: 1050px;
+    left: 50px;
+    z-index: 10;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .react-chatbot-kit-chat-inner-container {
+    position: relative;
+    top: 25px;
+    left: 15px;
+  }
+
+  .chatbot-modal {
+    position: relative;
+    top: 120px;
+    left: 550px;
+    width: 300px;
+    height: 550px;
+  }
+
+  .mobile-il-swiper {
+    display: none;
+  }
+  .home-header {
+    left: 60px;
+  }
+
+  .mobile-home-left-arrow {
+    display: none;
+  }
+
+  .mobile-home-right-arrow {
+    display: none;
+  }
+
+  .home-cards {
+    width: 1200px;
+    height: 800px;
+  }
+
+  .homeSlider {
+    bottom: 650px;
+    left: 700px;
+  }
+
+  .presentation {
+    width: 800px;
+    height: 500px;
+  }
+
+  .home-presentation-text {
+    position: relative;
+    left: 50px;
+    bottom: 120px;
+  }
+
+  .home-presentation-text2 {
+    position: relative;
+    bottom: 150px;
+    left: 75px;
+    font-size: 25px;
+  }
+
+  .home-team {
+    width: 1200px;
+  }
+
+  #team-title {
+    font-size: 55px;
+    left: 80px;
+  }
+
+  .rivers-card {
+    left: 5px;
+  }
+
+  #rivers-card-text {
+    top: 60px;
+    left: 200px;
+    font-size: 20px;
+  }
+  #rivers-card-insta-logo {
+    top: 40px;
+    left: 200px;
+  }
+
+  .joao-card {
+    top: 25px;
+    left: 20px;
+  }
+
+  #joao-card-img {
+    position: relative;
+    top: 115px;
+  }
+
+  #joao-card-title {
+    position: relative;
+    bottom: 120px;
+  }
+
+  #joao-card-text {
+    bottom: 55px;
+    font-size: 20px;
+    left: 200px;
+  }
+
+  #joao-card-insta-logo {
+    left: 200px;
+    bottom: 75px;
+  }
+
+  .nick-card {
+    left: 5px;
+  }
+
+  #nick-card-text {
+    font-size: 20px;
+  }
+
+  #nick-card-insta-logo {
+    left: 200px;
+    bottom: 90px;
+  }
+
+  .erick-card {
+    left: 20px;
+  }
+
+  #erick-card-img {
+    top: 110px;
+  }
+
+  #erick-card-title {
+    bottom: 100px;
+  }
+
+  #erick-card-text {
+    font-size: 20px;
+    left: 200px;
+    bottom: 100px;
+  }
+
+  #erick-card-insta-logo {
+    bottom: 80px;
+    left: 200px;
+  }
+
+  .footer-logo-full {
+    right: 100px;
+  }
+
+  #footer-text1 {
+    position: relative;
+    left: 600px;
+    bottom: 53px;
+  }
+
+  #footer-text2 {
+    position: relative;
+    left: 600px;
+    bottom: 53px;
+  }
+
+  .contacts-title {
+    bottom: 50px;
+  }
+
+  .contacts-container {
+    bottom: 50px;
+  }
+}
+
+.portfolio-body {
+  background-color: #1d2936;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.contact-body {
+  text-align: center;
+  background-color: #1d2936;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 1200px;
+}
+
+.home-body {
+  background-color: #1d2936;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.presentation {
+  margin: 0;
+  background-color: #4b6c8d;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px black;
+  margin-top: 130px;
+}
+
+.rivers-home {
+  float: right;
+  margin-right: 80px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.faixa1-home {
+  position: absolute;
+  bottom: 35px;
+  padding-left: 600px;
+}
+
+.home-presentation-text {
+  margin-top: 150px;
+  margin-left: 25px;
+  text-shadow: 2px 2px 2px black;
+  font-size: 32px;
+}
+
+.home-presentation-text2 {
+  position: relative;
+}
+
+.home-cards {
+  background-color: #4b6c8d;
+  border-radius: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 0px;
+  margin-left: 50px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.home-card {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  background-color: #161e29;
+  border-radius: 25px;
+  width: 290px;
+  margin-left: 100px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.fill-div {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+}
+
+.fill-div:hover {
+  opacity: 60%;
+  transition: 0.5s;
+}
+
+#home-card-title {
+  padding-left: 50px;
+  padding-top: 25px;
+  margin-bottom: 0;
+  color: #db2700;
+}
+
+#home-card-minor-title {
+  margin-top: 25px;
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+.home-card-text {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.home-team {
+  background-color: #4b6c8d;
+  border-radius: 25px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-right: 0px;
+  margin-left: 50px;
+  box-shadow: 5px 5px 5px black;
+}
+
+#team-title {
+  position: relative;
+  color: #db2700;
+  padding-left: 190px;
+  padding-top: 25px;
+  text-shadow: 2px 2px 2px black;
+}
+
+.team-cards {
+  margin: 0;
+  position: relative;
+}
+
+.rivers-card {
+  position: relative;
+}
+
+#rivers-card-img {
+  margin: 0;
+  padding-top: 30px;
+  position: absolute;
+}
+
+#rivers-card-title {
+  padding-top: 10px;
+  padding-left: 200px;
+  margin: 0;
+  height: 0;
+  padding-bottom: 0;
+  text-shadow: 2px 2px 2px black;
+}
+
+#rivers-card-text {
+  position: relative;
+  padding-top: 0;
+  margin: 0;
+}
+
+#rivers-card-insta-logo {
+  position: relative;
+  color: white;
+}
+
+#rivers-card-insta-logo :hover {
+  color: #1d2936;
+  transition: 0.5s;
+}
+
+#rivers-card-insta-text {
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 30px;
+  text-shadow: none;
+}
+
+.rivers-card-img {
+  border-radius: 100px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.joao-card {
+  position: relative;
+}
+
+.joao-card-img {
+  border-radius: 100px;
+  box-shadow: 5px 5px 5px black;
+}
+
+#joao-card-title {
+  padding-top: 10px;
+  padding-left: 200px;
+  margin: 0;
+  height: 0;
+  padding-bottom: 0;
+  text-shadow: 2px 2px 2px black;
+}
+
+#joao-card-text {
+  position: relative;
+}
+
+#joao-card-insta-logo {
+  position: relative;
+  color: white;
+}
+
+#joao-card-insta-logo :hover {
+  color: #1d2936;
+  transition: 0.5s;
+}
+
+.nick-card-img {
+  border-radius: 100px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.nick-card {
+  position: relative;
+}
+
+#nick-card-img {
+  position: absolute;
+}
+
+#nick-card-title {
+  position: relative;
+  padding-top: 0px;
+  padding-left: 200px;
+  padding-bottom: 50px;
+  margin: 0;
+  height: 0;
+  text-shadow: 2px 2px 2px black;
+}
+
+#nick-card-text {
+  position: relative;
+  padding-left: 200px;
+  padding-top: 0;
+  margin: 0;
+}
+
+#nick-card-insta-logo {
+  position: absolute;
+  color: white;
+}
+
+#nick-card-insta-logo :hover {
+  color: #1d2936;
+  transition: 0.5s;
+}
+
+.erick-card {
+  position: relative;
+}
+
+#erick-card-title {
+  position: relative;
+  padding-top: 0px;
+  padding-left: 200px;
+  padding-bottom: 50px;
+  margin: 0;
+  height: 0;
+  text-shadow: 2px 2px 2px black;
+}
+
+#erick-card-text {
+  position: relative;
+}
+
+#erick-card-img {
+  position: relative;
+}
+
+#erick-card-insta {
+  position: relative;
+}
+
+#erick-card-insta-logo {
+  position: absolute;
+  color: white;
+}
+
+#erick-card-insta-logo :hover {
+  color: #1d2936;
+  transition: 0.5s;
+}
+
+#portfolio-title {
+  text-align: center;
+  padding-top: 50px;
+  color: #db2700;
+  text-shadow: 2px 2px 2px black;
+  margin-bottom: 350px;
+  padding-bottom: 0px;
+  font-size: 40px;
+}
+
+#portfolio-title a {
+  margin-left: 50px;
+  float: left;
+  color: #db2700;
+  font-size: 25px;
+  font-weight: 600;
+  text-shadow: none;
+  text-align: center;
+  margin-right: 40px;
+  padding-bottom: 0;
+}
+
+#portfolio-title a:hover {
+  color: #4b6c8d;
+  text-shadow: 2px 2px 2px black;
+  transition: 0.5s;
+}
+
+.il-cards {
+  height: 300px;
+  padding-bottom: 0;
+  position: relative;
+  left: 40px;
+}
+
+.il-card1 {
+  position: relative;
+  bottom: 180px;
+  right: 400px;
+  padding-bottom: 0;
+}
+
+.il-sherlock {
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px black;
+  cursor: pointer;
+}
+
+.mobile-il-sherlock {
+  position: relative;
+  top: 250px;
+  left: 405px;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.il-sherlock:hover {
+  opacity: 60%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.il-card2 {
+  position: relative;
+  bottom: 485px;
+  right: 35px;
+  padding-bottom: 0;
+}
+
+.il-karine {
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px black;
+  cursor: pointer;
+}
+
+.mobile-il-karine {
+  position: relative;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.il-karine:hover {
+  opacity: 60%;
+  transition: 0.5s;
+}
+
+.il-card3 {
+  position: relative;
+  left: 280px;
+  bottom: 793px;
+  padding-bottom: 0;
+}
+
+.il-meybis {
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px black;
+  cursor: pointer;
+}
+
+.mobile-il-meybis {
+  position: relative;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.il-meybis:hover {
+  opacity: 60%;
+  transition: 0.5s;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.id-clean-taboao {
+  border-radius: 25px;
+}
+
+.homeSlider {
+  position: relative;
+}
+
+.homeSliderImages {
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px black;
+  cursor: pointer;
+  transition: 0.5;
+}
+
+.homeSliderImages:hover {
+  opacity: 60%;
+}
+
+.home-right-arrow {
+  cursor: pointer;
+  position: relative;
+  color: #161e29;
+  left: 190px;
+  top: 300px;
+  font-size: 5rem;
+  z-index: 8;
+}
+
+.home-right-arrow:hover {
+  color: #db2700;
+  transition: 0.5s;
+}
+
+.home-left-arrow {
+  cursor: pointer;
+  position: relative;
+  right: 150px;
+  top: 300px;
+  color: #161e29;
+  font-size: 5rem;
+  z-index: 8;
+}
+
+.home-left-arrow:hover {
+  color: #db2700;
+  transition: 0.5s;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+  background: none;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+.IdCleanSlider {
+  position: relative;
+  bottom: 270px;
+  right: 450px;
+}
+
+.IdSliderImages {
+  cursor: pointer;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.IdSliderImages:hover {
+  opacity: 60%;
+  transition: 0.5s;
+}
+
+.id-left-arrow {
+  cursor: pointer;
+  font-weight: bold;
+  z-index: 8;
+  right: 205px;
+  top: 200px;
+  color: #db2700;
+  position: absolute;
+  font-size: 5rem;
+}
+
+.id-left-arrow:hover {
+  color: #161e29;
+  transition: 0.5s;
+}
+
+.id-right-arrow {
+  position: absolute;
+  cursor: pointer;
+  top: 200px;
+  left: 200px;
+  z-index: 8;
+  font-weight: bold;
+  color: #db2700;
+  position: relative;
+  font-size: 5rem;
+}
+
+.id-right-arrow:hover {
+  color: #161e29;
+  transition: 0.5s;
+}
+
+.IdRenoveSlider {
+  position: relative;
+  bottom: 698px;
+  right: 100px;
+}
+
+.id-renove-left-arrow {
+  cursor: pointer;
+  font-weight: bold;
+  top: 200px;
+  z-index: 8;
+  right: 210px;
+  color: #db2700;
+  position: absolute;
+  font-size: 5rem;
+}
+
+.id-renove-left-arrow:hover {
+  color: #161e29;
+  transition: 0.5s;
+}
+
+.id-renove-right-arrow {
+  position: absolute;
+  cursor: pointer;
+  top: 200px;
+  left: 210px;
+  z-index: 8;
+  font-weight: bold;
+  color: #db2700;
+  position: relative;
+  font-size: 5rem;
+}
+
+.id-renove-right-arrow:hover {
+  color: #161e29;
+  transition: 0.5s;
+}
+
+.IdCBSlider {
+  position: relative;
+  bottom: 1130px;
+  left: 240px;
+}
+
+.id-CB-left-arrow {
+  cursor: pointer;
+  font-weight: bold;
+  top: 200px;
+  z-index: 8;
+  right: 210px;
+  color: #db2700;
+  position: absolute;
+  font-size: 5rem;
+}
+
+.id-CB-left-arrow:hover {
+  color: #161e29;
+  transition: 0.5s;
+}
+
+.id-CB-right-arrow {
+  position: absolute;
+  cursor: pointer;
+  top: 200px;
+  left: 210px;
+  z-index: 8;
+  font-weight: bold;
+  color: #db2700;
+  position: relative;
+  font-size: 5rem;
+}
+
+.id-CB-right-arrow:hover {
+  color: #161e29;
+  transition: 0.5s;
+}
+
+.IdCBMerchSlider {
+  position: relative;
+  bottom: 1200px;
+  right: 450px;
+}
+
+.id-CBMerch-left-arrow {
+  cursor: pointer;
+  font-weight: bold;
+  top: 200px;
+  z-index: 8;
+  right: 210px;
+  color: #db2700;
+  position: absolute;
+  font-size: 5rem;
+}
+
+.id-CBMerch-left-arrow:hover {
+  color: #161e29;
+  transition: 0.5s;
+}
+
+.id-CBMerch-right-arrow {
+  position: absolute;
+  cursor: pointer;
+  top: 200px;
+  left: 210px;
+  z-index: 8;
+  font-weight: bold;
+  color: #db2700;
+  position: relative;
+  font-size: 5rem;
+}
+
+.id-CBMerch-right-arrow:hover {
+  color: #161e29;
+  transition: 0.5s;
+}
+
+.IdCBLogoSlider {
+  position: relative;
+  bottom: 1631px;
+  right: 100px;
+}
+
+.id-CBLogo-left-arrow {
+  cursor: pointer;
+  font-weight: bold;
+  top: 200px;
+  z-index: 8;
+  right: 210px;
+  color: #db2700;
+  position: absolute;
+  font-size: 5rem;
+}
+
+.id-CBLogo-left-arrow:hover {
+  color: #161e29;
+  transition: 0.5s;
+}
+
+.id-CBLogo-right-arrow {
+  position: relative;
+  cursor: pointer;
+  top: 200px;
+  left: 210px;
+  z-index: 8;
+  font-weight: bold;
+  color: #db2700;
+  position: relative;
+  font-size: 5rem;
+}
+
+.id-CBLogo-right-arrow:hover {
+  color: #161e29;
+  transition: 0.5s;
+}
+
+.IdAPSlider {
+  position: relative;
+  bottom: 2060px;
+  right: 100px;
+  left: 240px;
+}
+
+.id-AP-left-arrow {
+  cursor: pointer;
+  font-weight: bold;
+  top: 200px;
+  z-index: 8;
+  right: 210px;
+  color: #db2700;
+  position: absolute;
+  font-size: 5rem;
+}
+
+.id-AP-left-arrow:hover {
+  color: #161e29;
+  transition: 0.5s;
+}
+
+.id-AP-right-arrow {
+  position: absolute;
+  cursor: pointer;
+  top: 200px;
+  left: 210px;
+  z-index: 8;
+  font-weight: bold;
+  color: #db2700;
+  position: relative;
+  font-size: 5rem;
+}
+
+.id-AP-right-arrow:hover {
+  color: #161e29;
+  transition: 0.5s;
+}
+
+.idSlidesDiv {
+  position: relative;
+  left: 70px;
+  height: 700px;
+}
+
+.idslide {
+  opacity: 0;
+  transition-duration: 1s ease;
+  background: none;
+}
+
+.idslide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+.modal {
+  transform: scale(1.08);
+  z-index: 10;
+  justify-content: center;
+}
+
+.il-sherlock-modal-img {
+  position: relative;
+  top: 100px;
+  left: 400px;
+}
+
+.modal-close-button-div {
+  position: relative;
+  float: right;
+  right: 200px;
+  bottom: 480px;
+}
+
+.modal-close-button {
+  cursor: pointer;
+  background-color: #4b6c8d;
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  border: none;
+  color: #db2700;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 25px;
+  transition: 0.5s;
+}
+
+.modal-close-button:hover {
+  background-color: #db2700;
+  color: #4b6c8d;
+}
+
+.il-karine-modal-img {
+  position: relative;
+  top: 100px;
+  left: 500px;
+}
+
+.id-clean-modal-img {
+  position: relative;
+  top: 100px;
+  z-index: 10;
+  left: 500px;
+}
+
+.bot-div {
+  position: relative;
+  width: 600px;
+  height: 550px;
+  background-color: #4b6c8d;
+  bottom: 150px;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.chatbott {
+  position: relative;
+  top: 25px;
+  left: 160px;
+}
+
+.contact-section2 {
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 800px;
+  background-color: #4b6c8d;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px black;
+  width: 600px;
+  height: 350px;
+  font-weight: bold;
+  color: #db2700;
+}
+
+.contacts-ul {
+  list-style-type: circle;
+  position: absolute;
+  left: 130px;
+}
