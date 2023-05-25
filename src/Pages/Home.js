@@ -42,7 +42,6 @@ function Home() {
         @import
         url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,600;0,900;1,300&display=swap');
       </style>
-
       <header className="home-header">
         <div>
           <a href="Home" className="logo">
@@ -54,7 +53,6 @@ function Home() {
           <a href="/portfolio/Ilustracoes">Portfólio</a>
         </div>
       </header>
-
       <header className="mobile-header1">
         <div>
           <a href="Home" className="mobile-header-logo">
@@ -62,7 +60,6 @@ function Home() {
           </a>
         </div>
       </header>
-
       <header className="mobile-header2">
         <div>
           <button
@@ -73,7 +70,6 @@ function Home() {
           </button>
         </div>
       </header>
-
       <Modal
         className="mobile-header-modal"
         isOpen={modalIsOpen}
@@ -92,7 +88,6 @@ function Home() {
           </li>
         </ul>
       </Modal>
-
       <div className="chatbot-button-div">
         <button onClick={() => setChatIsOpen(true)} className="chatbot-button">
           <span id="chatbot-button-icon">
@@ -100,7 +95,6 @@ function Home() {
           </span>
         </button>
       </div>
-
       <Modal
         className="chatbot-modal"
         isOpen={chatIsOpen}
@@ -115,7 +109,6 @@ function Home() {
           />
         </div>
       </Modal>
-
       <body className="home-body">
         <section className="presentation">
           <div className="rivers-home">{site_eu()}</div>
@@ -181,6 +174,7 @@ function Home() {
                   <a
                     href="https://www.instagram.com/gusta.rdm/"
                     target="_blank"
+                    rel="noreferrer"
                     id="rivers-card-insta-logo"
                   >
                     <BsInstagram />
@@ -202,6 +196,7 @@ function Home() {
                   <a
                     href="https://www.instagram.com/jovictoorr/"
                     target="_blank"
+                    rel="noreferrer"
                     id="joao-card-insta-logo"
                   >
                     <BsInstagram />
@@ -225,6 +220,7 @@ function Home() {
                     <a
                       href="https://www.instagram.com/dianhooficial/"
                       target="_blank"
+                      rel="noreferrer"
                       id="nick-card-insta-logo"
                     >
                       <BsInstagram />
@@ -247,6 +243,7 @@ function Home() {
                     <a
                       href="https://www.instagram.com/erick_cs14/"
                       target="_blank"
+                      rel="noreferrer"
                       id="erick-card-insta-logo"
                     >
                       <BsInstagram />
@@ -258,9 +255,8 @@ function Home() {
           </table>
         </section>
       </body>
-
       <footer className="footer">
-        <section>
+        <section className="footer-logo-full-section">
           <div className="footer-logo-full">
             <div className="footer-logo">{logo_flat_transp()}</div>
             <div id="footer-text1">
@@ -272,6 +268,7 @@ function Home() {
           </div>
         </section>
 
+        <section>
           <div>
             <div className="contacts-title">
               <h3>Contatos:</h3>
@@ -286,6 +283,7 @@ function Home() {
                   <a
                     className="contacts-instaText"
                     target="_blank"
+                    rel="noreferrer"
                     href="https://www.instagram.com/riversing.design/"
                   >
                     @riversing.design
@@ -301,6 +299,7 @@ function Home() {
                   <a
                     href="https://api.whatsapp.com/send?phone=5511988239076&text=Ol%C3%A1%20Gustavo!%20Vim%20pelo%20seu%20site%2C%20poderia%20me%20ajudar%3F%20"
                     target="_blank"
+                    rel="noreferrer"
                     className="contacts-zapText"
                   >
                     Gustavo Rios
@@ -316,6 +315,7 @@ function Home() {
                   <a
                     href="https://www.facebook.com/riversing.design"
                     target="_blank"
+                    rel="noreferrer"
                     className="contacts-faceText"
                   >
                     @riversing.design
@@ -331,6 +331,7 @@ function Home() {
                   <a
                     href="mailto:gustavoriosdm@gmail.com?subject=Ol%C3%A1%20Gustavo,%20vi%20seu%20site%20e%20gostaria%20de%20conversar%20com%20voc%C3%AA!"
                     target="_blank"
+                    rel="noreferrer"
                     className="contacts-mailText"
                   >
                     gustavoriosdm@gmail.com

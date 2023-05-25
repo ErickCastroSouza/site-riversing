@@ -86,9 +86,11 @@ function Tour() {
             </div>
           </div>
 
-          <a className="tour-home-button" href="/Home">
-            <span>Vamos!</span>
-          </a>
+          <div className="tour-home-button-div">
+            <a className="tour-home-button" href="/Home">
+              <span>Vamos!</span>
+            </a>
+          </div>
         </SwiperSlide>
       </Swiper>
     </motion.div>
