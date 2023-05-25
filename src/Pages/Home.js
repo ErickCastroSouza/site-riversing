@@ -272,7 +272,6 @@ function Home() {
           </div>
         </section>
 
-        <section>
           <div>
             <div className="contacts-title">
               <h3>Contatos:</h3>
