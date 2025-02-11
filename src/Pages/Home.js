@@ -77,11 +77,6 @@ function Home() {
       >
         <ul>
           <li>
-            <a className="mobile-header-modal-a" href="/Tour">
-              Fazer tour
-            </a>
-          </li>
-          <li>
             <a className="mobile-header-modal-a" href="/portfolio/Ilustracoes">
               Portfólio
             </a>
@@ -236,8 +231,8 @@ function Home() {
                     <h3>Erick Castro</h3>
                   </div>
                   <div id="erick-card-text">
-                    <p>Lorem ipsum dolor sit amet,</p>
-                    <p>consectetur adipiscing elit.</p>
+                    <p>Cuido do desenvolvimento de websites</p>
+                    <p>e aplicações!</p>
                   </div>
                   <div id="erick-card-insta">
                     <a
@@ -259,17 +254,19 @@ function Home() {
         <section className="footer-logo-full-section">
           <div className="footer-logo-full">
             <div className="footer-logo">{logo_flat_transp()}</div>
-            <div id="footer-text1">
-              <span>Riversing</span>
-            </div>
-            <div id="footer-text2">
-              <span>Design</span>
+            <div className="footer-text-div">
+              <div id="footer-text1">
+                <span>Riversing</span>
+              </div>
+              <div id="footer-text2">
+                <span>Design</span>
+              </div>
             </div>
           </div>
         </section>
 
         <section>
-          <div>
+          <div className="contacts-div">
             <div className="contacts-title">
               <h3>Contatos:</h3>
             </div>

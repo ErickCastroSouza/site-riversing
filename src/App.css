@@ -31,86 +31,65 @@
 }
 
 .tour1 {
-  position: absolute;
   text-align: center;
   font-size: 30px;
-  right: 600px;
-  background-color: transparent;
-  border-radius: 25px;
-  margin-left: 440px;
-  margin-right: 25px;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #tour-text1 {
-  margin: 0;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-left: 5px;
+  line-height: 5px;
 }
 
 #tour-text2 {
-  margin: 0;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-left: 5px;
+  line-height: 0px;
 }
-
+ 
 #tour-welcome1 {
-  margin: 0;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-right: 5px;
-  margin: 0;
   text-shadow: 2px 2px 2px black;
+  line-height: 0px;
 }
 
 #tour-welcome2 {
-  margin: 0;
-  padding-top: 0px;
-  padding-bottom: 10px;
-  padding-right: 5px;
-  margin: 0;
   text-shadow: 2px 2px 2px black;
+  line-height: 0px;
 }
 
 .tour2-text-div {
   text-align: center;
+  display: flex;
+  height: 100vh;
+  justify-content: space-evenly;
+  gap: 50px;
+align-items: center;
 }
 
 .tour2-text1 {
-  position: absolute;
-  top: 50px;
-  right: 1100px;
-  bottom: 80px;
   font-size: 24px;
 }
 
 .tour2-text2 {
-  position: absolute;
-  top: 50px;
-  left: 900px;
   font-size: 24px;
-  bottom: 338px;
 }
 
 .tour3-text-div {
   text-align: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .tour3-text1 {
-  position: absolute;
-  top: 50px;
-  right: 1100px;
-  bottom: 80px;
   font-size: 24px;
 }
 
 .tour3-text2 {
-  position: absolute;
-  top: 50px;
-  left: 800px;
   font-size: 24px;
-  bottom: 338px;
 }
 
 .tour4-text {
@@ -118,8 +97,9 @@
 }
 
 .tour-home-button-div {
-  position: relative;
-  padding-left: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .tour-home-button {
@@ -133,14 +113,12 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 5px 140px;
   border-radius: 25px;
   padding-left: 30px;
   padding-right: 30px;
   transition: all 0.5s;
   cursor: pointer;
-  position: relative;
-  left: 550px;
+
 }
 
 .tour-home-button span {
@@ -186,45 +164,47 @@
 .footer {
   background-color: #161e29;
   color: rgb(209, 195, 195);
-  position: absolute;
   left: 0;
-  height: 350px;
+  height: 380px;
   width: 100%;
   text-align: center;
   box-shadow: 3px 3px 5px 6px black;
   float: bottom;
 }
 
-.footer-logo {
-  position: relative;
-  padding-right: 50px;
+.footer-logo-full-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.footer-logo-full {
-  position: relative;
+.footer-logo {
+  display: flex;
   justify-content: center;
 }
 
 #footer-text1 {
-  position: absolute;
   font-family: "Poppins", sans-serif;
   color: white;
   font-weight: bold;
-  width: 141px;
-  height: 0px;
-  padding-top: 10px;
-  padding-bottom: 1px;
-  padding-left: 135px;
   font-size: 20px;
+}
+
+
+.contacts-div {
+  position: relative;
+  margin-top: 70px;
 }
 
 #footer-text2 {
   font-family: "Poppins", sans-serif;
   color: #db2700;
   font-weight: bold;
-  width: 145px;
-  padding-left: 220px;
   font-size: 20px;
+}
+
+.footer-text-div { 
+  display: flex;
 }
 
 .contacts-title {
@@ -364,6 +344,25 @@
 }
 
 .init_button {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  border: none;
+  color: #db2700;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 140px;
+  border-radius: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.init_button_tour {
   background-color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -537,6 +536,14 @@ body {
 }
 
 @media screen and (max-width: 499px) {
+
+  #welcome-text {
+    display: none;
+  }
+  
+  .init_button_tour {
+    display: none;
+  }
   .il-cards {
     display: none;
   }
@@ -569,7 +576,7 @@ body {
   }
 
   .chatbot-button-div {
-    top: 470px;
+    top: 560px;
     left: 30px;
     z-index: 10;
   }
@@ -714,6 +721,7 @@ body {
   }
 
   .mobile-home-right-arrow {
+    z-index: 1000;
     left: 275px;
     top: 150px;
     position: absolute;
@@ -732,7 +740,7 @@ body {
     position: relative;
     right: 25px;
     width: 350px;
-    height: 550px;
+    height: 570px;
     padding-bottom: 2200px;
   }
 
@@ -909,7 +917,7 @@ body {
   }
 
   .chatbot-button-div {
-    top: 1050px;
+    top: 1080px;
   }
 
   .home-body {
@@ -1727,12 +1735,14 @@ body {
 }
 
 .slide {
+  z-index: -1000;
   opacity: 0;
   transition-duration: 1s ease;
   background: none;
 }
 
 .slide.active {
+  z-index: -1000;
   opacity: 1;
   transition-duration: 1s;
   transform: scale(1.08);

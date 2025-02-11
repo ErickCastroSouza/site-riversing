@@ -30,7 +30,7 @@ function Init() {
           <p id="welcome-text">Que tal a gente fazer um tour juntos?</p>
         </div>
 
-        <NavLink to="/Tour" exact className="init_button">
+        <NavLink to="/Tour" exact className="init_button_tour">
           <span>Vamos lá! </span>
         </NavLink>
         <AnimatePresence>
@@ -39,7 +39,7 @@ function Init() {
           </Switch>
         </AnimatePresence>
         <NavLink to="/Home" exact className="init_button">
-          <span>Precisa não</span>
+          <span>Acessar o site</span>
           <AnimatePresence>
             <Switch>
               <Route path="/Home" component={Home} />

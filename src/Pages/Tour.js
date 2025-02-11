@@ -84,12 +84,11 @@ function Tour() {
               <p>Continue para o nosso site</p>
               <p>e siga a onda!</p>
             </div>
-          </div>
-
-          <div className="tour-home-button-div">
+            <div className="tour-home-button-div">
             <a className="tour-home-button" href="/Home">
               <span>Vamos!</span>
             </a>
+          </div>
           </div>
         </SwiperSlide>
       </Swiper>
